@@ -20,8 +20,8 @@ app.use(cors({
   origin: [
     process.env.FRONTEND_URL,
     process.env.ADMIN_URL,
-    'http://localhost:5173', // Frontend dev server
-    'http://localhost:5174'  // Admin dev server
+    'https://frontend-three-psi-48.vercel.app/', // Frontend dev server
+    'https://admin-pannel-theta.vercel.app/'  // Admin dev server
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
